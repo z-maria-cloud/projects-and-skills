@@ -10,7 +10,9 @@
 - Interaction with remote servers through **SSH**
 
 **Python**: intermediate
+
 **Git**: basics
+
 **Visual Studio Code**: basics
 
 **Docker**: basics
@@ -28,13 +30,16 @@ Web Deployment through **Aruba VPS**
 - Linking web domains to IP addresses of servers
 
 **Javascript**: intermediate
+
 **HTML**: advanced
+
 **CSS**: advanced
 - Custom CSS
 - Bootstrap
 - Tailwind
 
 **Nodejs**: intermediate
+
 **ExpressJs**: intermediate
 
 **MySQL, SQLite, MongoDB**: basics
@@ -54,6 +59,7 @@ Inner structure and workings of HTTP requests:
 - Cookies
 
 Python-based websites:
+
 **Flask**: basics
 
 ## Graphic Design / CGI / Marketing
@@ -63,14 +69,19 @@ Python-based websites:
 - Rendering of product mockups and packaging: basics
 
 **GIMP**: advanced
+
 **Photoshop**: intermediate
 
 Video editing:
+
 **Kdenlive**: intermediate
+
 **Davinci Resolve**: basics
 
 ## Productivity Software
 
 Microsoft **Word**: advanced
+
 Microsoft **Excel**: intermediate
+
 Microsoft **Powerpoint**: intermediate

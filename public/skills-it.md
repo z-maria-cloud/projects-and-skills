@@ -10,7 +10,9 @@
 - Interagire con server remoti tramite **SSH**
 
 **Python**: intermedio
+
 **Git**: basi
+
 **Visual Studio Code**: basi
 
 **Docker**: basi
@@ -28,13 +30,16 @@ Creazione di **Record DNS**: basi
 - Collegare domini web ad indirizzi IP di server
 
 **Javascript**: intermedio
+
 **HTML**: avanzato
+
 **CSS**: avanzato
 - Scrittura di CSS custom
 - Bootstrap
 - Tailwind
 
 **Nodejs**: intermedio
+
 **ExpressJs**: intermedio
 
 **MySQL, SQLite, MongoDB**: basi
@@ -54,6 +59,7 @@ Struttura e funzionamento delle richieste HTTP:
 - Utilizzo dei cookie
 
 Python per il web:
+
 **Flask**: basi
 
 ## Graphic Design / CGI / Marketing
@@ -63,14 +69,19 @@ Python per il web:
 - Mockup e render di packaging: basi
 
 **GIMP**: avanzato
+
 **Photoshop**: intermedio
 
 Video editing:
+
 **Kdenlive**: intermedio
+
 **Davinci Resolve**: basi
 
 ## Productivity Software
 
 Microsoft **Word**: avanzato
+
 Microsoft **Excel**: intermedio
+
 Microsoft **Powerpoint**: intermedio
