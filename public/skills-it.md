@@ -2,7 +2,7 @@
 ## Programmazione / IT
 
 **Linux**: intermedio
-- Gestione del sistema: installazione di linux, configurazione del sistema, aggiornamenti tramite **apt**
+- Gestione del sistema: installazione di Linux, configurazione del sistema, aggiornamenti tramite **apt**
 - Utilizzare **dmesg** e **journalctl** per individuare e risolvere problemi
 - Gestire e creare processi utente attraverso **systemctl**
 - Programmazione di eventi con **crontab**
