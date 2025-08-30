@@ -5,13 +5,15 @@ import fs from "fs";
 import express from 'express';
 import markdownit from 'markdown-it';
 
-const md = markdownit()
-let skillsIT = md.render(fs.readFileSync("./public/skills-it.md", { encoding: 'utf8', flag: 'r' }));
-let skillsEN = md.render(fs.readFileSync("./public/skills-en.md", { encoding: 'utf8', flag: 'r' }));
-
 const app = express();
 const port = process.env.PROJECT_PORT;
 const appName = process.env.PROJECT_NAME;
+
+app.use(express.static('public'))
+
+const md = markdownit()
+let skillsIT = md.render(fs.readFileSync("./public/skills-it.md", { encoding: 'utf8', flag: 'r' }));
+let skillsEN = md.render(fs.readFileSync("./public/skills-en.md", { encoding: 'utf8', flag: 'r' }));
 
 app.get('/', (req, res) => {
   res.render("main.ejs");

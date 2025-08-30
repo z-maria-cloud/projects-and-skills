@@ -9,16 +9,22 @@
 - Utilizzo di **Raspberry Pi** come server
 - Interagire con server remoti tramite **SSH**
 
+---
+
 **Python**: intermedio
 
 **Git**: basi
 
 **Visual Studio Code**: basi
 
+---
+
 **Docker**: basi
 - Creare e gestire container
 - Basi di **Docker Compose** e di **Compose Watch**
 - Creazione di semplici **Dockerfile**
+
+---
 
 Assemblaggio di computer
 
@@ -28,6 +34,8 @@ Web Deployment attraverso **Aruba VPS**
 
 Creazione di **Record DNS**: basi
 - Collegare domini web ad indirizzi IP di server
+
+---
 
 **Javascript**: intermedio
 
@@ -42,21 +50,31 @@ Creazione di **Record DNS**: basi
 
 **ExpressJs**: intermedio
 
+---
+
 **MySQL, SQLite, MongoDB**: basi
 - CRUD
 - Creare utenti e gestire privilegi
 - Compilare tabelle di database in modo automatico attraverso script
 
+---
+
 **NGINX**: basi
 - Utilizzo di NGINX come reverse proxy
+
+---
 
 Test automatici con **Cypress**: basi
 
 Creazione di semplici **API REST**
 
+---
+
 Struttura e funzionamento delle richieste HTTP:
 - Utilizzo degli header delle richieste per raccogliere dati sul traffico e per identificare bot
 - Utilizzo dei cookie
+
+---
 
 Python per il web:
 
@@ -68,9 +86,13 @@ Python per il web:
 - Shader procedurali: intermedio
 - Mockup e render di packaging: basi
 
+---
+
 **GIMP**: avanzato
 
 **Photoshop**: intermedio
+
+---
 
 Video editing:
 
