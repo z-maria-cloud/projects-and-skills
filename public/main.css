@@ -58,5 +58,14 @@ hr {
   
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 750px) {
+    .skills {
+        margin: auto 10%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .skills {
+        margin: auto 5%;
+    }
 }
