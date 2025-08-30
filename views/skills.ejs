@@ -6,11 +6,18 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <title><%= title %></title>
 
+    <%- include("fonts"); %>
+
     <style>
     </style>
 
     <body>
-        <%- data %>   
+      <div class="skills">
+        <%- data %>
+      </div>
+        
+        
+        <%- include("footer"); %>
     </body>
   </head>
 </html>

@@ -1,5 +1,29 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e2327;
+}
+
+strong {
+  font-weight: 800;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  color: #e39300;
+}
+
 h2 {
   font-size: 2rem;
+  font-weight: 600;
+  border-left-style: double;
+  padding-left: 1rem;
+  border-left-width: 5px;
+  color: wheat;
 }
 
 p {
@@ -14,6 +38,24 @@ hr {
   color: white;
   border: 0;
   margin: 0.6rem;
+}
+
+.skills {
+  margin: auto 20%;
+}
+
+.footer {
+  text-align: center;
+  background-color: #234023;
+  padding: 3rem 1rem;
+  margin-top: 3rem;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.footer p {
+  color: #c1c1c1;
+  
 }
 
 @media screen and (max-width: 1270px) {
