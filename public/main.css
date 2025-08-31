@@ -10,6 +10,14 @@ body {
   background-color: #1e2327;
 }
 
+img {
+  width: 50px;
+  display: inline;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 strong {
   font-weight: 800;
   border-bottom-style: dashed;

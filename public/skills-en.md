@@ -1,6 +1,10 @@
 
 ## Programming / IT
 
+![linux logo](images/linux.png) ![raspberry pi logo](images/raspberry_pi.png) ![python logo](images/python.png) ![git logo](images/git.png) ![visual studio code logo](images/vscode.png) ![docker logo](images/docker.png)
+
+---
+
 **Linux**: intermediate
 - System management: installing Linux, configuring the system, handling updates through **apt**
 - Identifying and solving problems by using **dmesg** and **journalctl**
@@ -29,6 +33,10 @@
 Computer building
 
 ## Web Development
+
+![javascript logo](images/javascript.png) ![html logo](images/html.png) ![css logo](images/css.png) ![bootstrap logo](images/bootstrap.png) ![tailwind logo](images/tailwind.png) ![nodejs logo](images/nodejs.png) ![mysql logo](images/mysql.png) ![sqlite logo](images/sqlite.png) ![mongodb logo](images/mongodb.png) ![nginx logo](images/nginx.png) ![cypress logo](images/cypress.png) ![flask logo](images/flask.png)
+
+---
 
 Web Deployment through **Aruba VPS**
 
@@ -82,6 +90,10 @@ Python-based websites:
 
 ## Graphic Design / CGI / Marketing
 
+![blender logo](images/blender.png) ![gimp logo](images/gimp.png) ![photoshop logo](images/photoshop.png) ![kdenlive logo](images/kdenlive.png) ![davici resolve logo](images/davinci_resolve.png)
+
+---
+
 **Blender**:
 - Procedural shaders: intermediate
 - Rendering of product mockups and packaging: basics
@@ -101,6 +113,10 @@ Video editing:
 **Davinci Resolve**: basics
 
 ## Productivity Software
+
+![microsoft word logo](images/word.png) ![microsoft excel logo](images/excel.png) ![microsoft powerpoint logo](images/powerpoint.png) 
+
+---
 
 Microsoft **Word**: advanced
 
