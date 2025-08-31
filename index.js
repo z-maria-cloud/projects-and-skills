@@ -16,15 +16,11 @@ let skillsIT = md.render(fs.readFileSync("./public/skills-it.md", { encoding: 'u
 let skillsEN = md.render(fs.readFileSync("./public/skills-en.md", { encoding: 'utf8', flag: 'r' }));
 
 app.get('/', (req, res) => {
-  res.render("main.ejs");
+  res.render("skills.ejs", {data: skillsEN});
 });
 
 app.get('/skills-it', (req, res) => {
-  res.render("skills.ejs", {data: skillsIT, title: "Skills (Italiano)"});
-});
-
-app.get('/skills-en', (req, res) => {
-  res.render("skills.ejs", {data: skillsEN, title: "Skills (English)"});
+  res.render("skills.ejs", {data: skillsIT});
 });
 
 app.listen(port, () => {

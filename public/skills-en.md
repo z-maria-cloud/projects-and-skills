@@ -1,4 +1,26 @@
 
+I started learning programming when I was 11. **Now I'm trying to make it my career.**
+
+---
+
+I'm studying **advanced Python** in order to get a **PCPP1™** certification.
+
+---
+
+I'm also studying **React**, **Wordpress** and the **C programming** language.
+
+---
+
+My passion for art also pushed me to learn the basics of **Graphic Design and Video Editing**.
+
+---
+
+I'm always learning and ready to face new challenges.
+
+---
+
+I believe that technology should **respect and empower human beings**.
+
 ## Programming / IT
 
 ![linux logo](images/linux.png) ![raspberry pi logo](images/raspberry_pi.png) ![python logo](images/python.png) ![git logo](images/git.png) ![visual studio code logo](images/vscode.png) ![docker logo](images/docker.png)

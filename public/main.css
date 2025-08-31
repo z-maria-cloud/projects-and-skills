@@ -1,3 +1,10 @@
+:root {
+  --green: #407740;
+  --yellow: #e39300;
+  --highlight: #7ce300;
+  --accent: wheat;
+}
+
 * {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
@@ -22,16 +29,25 @@ strong {
   font-weight: 800;
   border-bottom-style: dashed;
   border-bottom-width: 1px;
-  color: #e39300;
+  color: var(--highlight);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--yellow);
+  margin: 1rem 0;
+  line-height: 1;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 600;
-  border-left-style: double;
   padding-left: 1rem;
+  border-left-style: double;
+  border-left-color: var(--yellow);
   border-left-width: 5px;
-  color: wheat;
+  color: var(--yellow);
 }
 
 p {
@@ -49,12 +65,12 @@ hr {
 }
 
 .skills {
-  margin: auto 20%;
+  margin: auto 30%;
 }
 
 .footer {
   text-align: center;
-  background-color: #234023;
+  background-color: var(--green);
   padding: 3rem 1rem;
   margin-top: 3rem;
   border-top-left-radius: 50px;
@@ -62,18 +78,106 @@ hr {
 }
 
 .footer p {
-  color: #c1c1c1;
-  
+  color: white;
 }
 
-@media screen and (max-width: 750px) {
-    .skills {
-        margin: auto 10%;
-    }
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-@media screen and (max-width: 550px) {
-    .skills {
-        margin: auto 5%;
-    }
+.banner {
+  padding: 0 30%;
+  margin: 2rem 0;
+}
+
+.banner img {
+  width: 100%;
+  background-color: unset;
+  border-radius: 10%;
+  padding: 0;
+  box-shadow: var(--accent) 8px 8px 0px;
+}
+
+.banner-text {
+  padding: 0 0 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.animate {
+  animation: color-change 4s infinite;
+  font-weight: 900;
+  border-bottom-style: dashed;
+}
+
+@keyframes color-change {
+  0% {
+    color: var(--yellow);
+  }
+  50% {
+    color: var(--highlight);
+  }
+  100% {
+    color: var(--yellow);
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .banner {
+    padding: 0 20%;
+  }
+
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .skills {
+    margin: auto 20%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .banner {
+    padding: 0 10%;
+  }
+
+  .skills {
+    margin: auto 10%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .skills {
+    margin: auto 5%;
+  }
+
+  .grid {
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+  }
+
+  .banner-text {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
 }
